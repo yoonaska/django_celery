@@ -1,0 +1,15 @@
+venv
+.env
+.env.example
+.env.example.local
+db.sqlite3
+*.pyc
+debug.log
+/assets
+/logs
+*/*/migrations/*.py
+!*/*/migrations/__init__.py
+/media
+.idea
+/.vscode
+admin_generator.txt

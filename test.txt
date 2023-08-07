@@ -1,0 +1,10 @@
+
+redis-server     
+redis-cli     
+celery -A django_celery_test.celery worker --pool=solo  -l info
+
+celery -A django_celery_test.celery worker  -l info
+
+celery -A django_celery_test.celery worker --concurrency=5  -l info 
+
+celery -A django_celery_test beat -l INFO
